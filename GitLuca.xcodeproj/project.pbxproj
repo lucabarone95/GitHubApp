@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		284A07132656CD3500AC41CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284A07122656CD3500AC41CA /* AppDelegate.swift */; };
 		284A07152656CD3500AC41CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284A07142656CD3500AC41CA /* SceneDelegate.swift */; };
-		284A07172656CD3500AC41CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284A07162656CD3500AC41CA /* ViewController.swift */; };
-		284A071A2656CD3500AC41CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284A07182656CD3500AC41CA /* Main.storyboard */; };
 		284A071C2656CD3800AC41CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284A071B2656CD3800AC41CA /* Assets.xcassets */; };
 		284A071F2656CD3800AC41CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284A071D2656CD3800AC41CA /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -19,8 +17,6 @@
 		284A070F2656CD3500AC41CA /* GitLuca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitLuca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		284A07122656CD3500AC41CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		284A07142656CD3500AC41CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		284A07162656CD3500AC41CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		284A07192656CD3500AC41CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		284A071B2656CD3800AC41CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		284A071E2656CD3800AC41CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		284A07202656CD3800AC41CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,8 +54,6 @@
 			children = (
 				284A07122656CD3500AC41CA /* AppDelegate.swift */,
 				284A07142656CD3500AC41CA /* SceneDelegate.swift */,
-				284A07162656CD3500AC41CA /* ViewController.swift */,
-				284A07182656CD3500AC41CA /* Main.storyboard */,
 				284A071B2656CD3800AC41CA /* Assets.xcassets */,
 				284A071D2656CD3800AC41CA /* LaunchScreen.storyboard */,
 				284A07202656CD3800AC41CA /* Info.plist */,
@@ -126,7 +120,6 @@
 			files = (
 				284A071F2656CD3800AC41CA /* LaunchScreen.storyboard in Resources */,
 				284A071C2656CD3800AC41CA /* Assets.xcassets in Resources */,
-				284A071A2656CD3500AC41CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +130,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				284A07172656CD3500AC41CA /* ViewController.swift in Sources */,
 				284A07132656CD3500AC41CA /* AppDelegate.swift in Sources */,
 				284A07152656CD3500AC41CA /* SceneDelegate.swift in Sources */,
 			);
@@ -146,14 +138,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		284A07182656CD3500AC41CA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				284A07192656CD3500AC41CA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		284A071D2656CD3800AC41CA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +280,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = LB.GitLuca;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = LB.GitLuca;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
